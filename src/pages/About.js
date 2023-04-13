@@ -6,7 +6,7 @@ import { useCounterContext } from "../hooks/useCounterContext";
 
 const About = () => {
   // const {counter} = useContext(CounterContext)
-  const {counter} = useCounterContext
+  const {counter} = useCounterContext()
   
   return (
     <div>
